@@ -1,0 +1,22 @@
+{
+  "name": "ir2mqtt",
+  "version": "0.58",
+  "slug": "hassio_ir2mqtt",
+  "description": "Publish IR button presses on MQTT",
+  "arch": ["armv7"],
+  "startup": "application",
+  "boot": "auto",
+  "options": {
+    "mqttUsername": null,
+    "mqttPassword": null,
+    "mqttTopic": null
+  },
+  "schema": {
+    "mqttUsername": "str",
+    "mqttPassword": "str",
+    "mqttTopic": "str"
+  },
+  "devices": [
+    "/dev/lirc0:/dev/lirc0:rwm"
+  ]
+}

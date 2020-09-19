@@ -1,0 +1,37 @@
+#! /bin/bash
+
+#set -x
+
+function log() {
+  DATE=$(date "+%Y-%m-%d %H:%M:%S")
+  echo "[$DATE] $@"
+}
+
+button=$1
+
+function send() {
+  payload=$1
+  n=1
+  until [ "$n" -ge 5 ]; do
+    log "Sending $payload. Attempt $n."
+    mosquitto_pub -t __MQTT_TOPIC__ -u __MQTT_USERNAME__ -P __MQTT_PASSWORD__ -h homeassistant -i ir2mqtt -m $payload && log "Sent $payload." && break
+    if [ $n -ge 5]; then
+      log "Failed."
+      exit 1
+    else
+      log "Retrying in 1 second"
+      n=$((n + 1))
+      sleep 1
+    fi
+  done
+}
+
+#if [[ $button =~ ^[A-Z0-9]$ ]]; then
+#  echo -n $button >>/tmp/mqtt_message
+#elif [ $button == ENTER ] && [ -f /tmp/mqtt_message ] && [ "$(cat /tmp/mqtt_message)" -ne "" ]; then
+#  content=$(cat /tmp/mqtt_message)
+#  send $content
+#  rm /tmp/mqtt_message
+#else
+send $button
+#fi

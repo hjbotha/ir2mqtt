@@ -1,0 +1,246 @@
+begin
+    prog   = irexec
+    button = KEY_1
+    config = /queue_message_and_show_output.sh "1"
+end
+
+begin
+    prog   = irexec
+    button = KEY_2
+    config = /queue_message_and_show_output.sh "2"
+end
+
+begin
+    prog   = irexec
+    button = KEY_3
+    config = /queue_message_and_show_output.sh "3"
+end
+
+begin
+    prog   = irexec
+    button = KEY_4
+    config = /queue_message_and_show_output.sh "4"
+end
+
+begin
+    prog   = irexec
+    button = KEY_5
+    config = /queue_message_and_show_output.sh "5"
+end
+
+begin
+    prog   = irexec
+    button = KEY_6
+    config = /queue_message_and_show_output.sh "6"
+end
+
+begin
+    prog   = irexec
+    button = KEY_7
+    config = /queue_message_and_show_output.sh "7"
+end
+
+begin
+    prog   = irexec
+    button = KEY_8
+    config = /queue_message_and_show_output.sh "8"
+end
+
+begin
+    prog   = irexec
+    button = KEY_9
+    config = /queue_message_and_show_output.sh "9"
+end
+
+begin
+    prog   = irexec
+    button = KEY_0
+    config = /queue_message_and_show_output.sh "0"
+end
+
+begin
+    prog   = irexec
+    button = KEY_GREEN
+    config = /queue_message_and_show_output.sh "GREEN"
+end
+
+begin
+    prog   = irexec
+    button = KEY_RED
+    config = /queue_message_and_show_output.sh "RED"
+end
+
+begin
+    prog   = irexec
+    button = KEY_BLUE
+    config = /queue_message_and_show_output.sh "BLUE"
+end
+
+begin
+    prog   = irexec
+    button = KEY_YELLOW
+    config = /queue_message_and_show_output.sh "YELLOW"
+end
+
+begin
+    prog   = irexec
+    button = KEY_ENTER
+    config = /queue_message_and_show_output.sh "ENTER"
+end
+
+begin
+    prog   = irexec
+    button = KEY_A
+    config = /queue_message_and_show_output.sh "A"
+end
+
+begin
+    prog   = irexec
+    button = KEY_B
+    config = /queue_message_and_show_output.sh "B"
+end
+
+begin
+    prog   = irexec
+    button = KEY_C
+    config = /queue_message_and_show_output.sh "C"
+end
+
+begin
+    prog   = irexec
+    button = KEY_D
+    config = /queue_message_and_show_output.sh "D"
+end
+
+begin
+    prog   = irexec
+    button = KEY_E
+    config = /queue_message_and_show_output.sh "E"
+end
+
+begin
+    prog   = irexec
+    button = KEY_F
+    config = /queue_message_and_show_output.sh "F"
+end
+
+begin
+    prog   = irexec
+    button = KEY_G
+    config = /queue_message_and_show_output.sh "G"
+end
+
+begin
+    prog   = irexec
+    button = KEY_H
+    config = /queue_message_and_show_output.sh "H"
+end
+
+begin
+    prog   = irexec
+    button = KEY_I
+    config = /queue_message_and_show_output.sh "I"
+end
+
+begin
+    prog   = irexec
+    button = KEY_J
+    config = /queue_message_and_show_output.sh "J"
+end
+
+begin
+    prog   = irexec
+    button = KEY_K
+    config = /queue_message_and_show_output.sh "K"
+end
+
+begin
+    prog   = irexec
+    button = KEY_L
+    config = /queue_message_and_show_output.sh "L"
+end
+
+begin
+    prog   = irexec
+    button = KEY_M
+    config = /queue_message_and_show_output.sh "M"
+end
+
+begin
+    prog   = irexec
+    button = KEY_N
+    config = /queue_message_and_show_output.sh "N"
+end
+
+begin
+    prog   = irexec
+    button = KEY_O
+    config = /queue_message_and_show_output.sh "O"
+end
+
+begin
+    prog   = irexec
+    button = KEY_P
+    config = /queue_message_and_show_output.sh "P"
+end
+
+begin
+    prog   = irexec
+    button = KEY_Q
+    config = /queue_message_and_show_output.sh "Q"
+end
+
+begin
+    prog   = irexec
+    button = KEY_R
+    config = /queue_message_and_show_output.sh "R"
+end
+
+begin
+    prog   = irexec
+    button = KEY_S
+    config = /queue_message_and_show_output.sh "S"
+end
+
+begin
+    prog   = irexec
+    button = KEY_T
+    config = /queue_message_and_show_output.sh "T"
+end
+
+begin
+    prog   = irexec
+    button = KEY_U
+    config = /queue_message_and_show_output.sh "U"
+end
+
+begin
+    prog   = irexec
+    button = KEY_V
+    config = /queue_message_and_show_output.sh "V"
+end
+
+begin
+    prog   = irexec
+    button = KEY_W
+    config = /queue_message_and_show_output.sh "W"
+end
+
+begin
+    prog   = irexec
+    button = KEY_X
+    config = /queue_message_and_show_output.sh "X"
+end
+
+begin
+    prog   = irexec
+    button = KEY_Y
+    config = /queue_message_and_show_output.sh "Y"
+end
+
+begin
+    prog   = irexec
+    button = KEY_Z
+    config = /queue_message_and_show_output.sh "Z"
+end
+
